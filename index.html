@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naveen Prasad N - Software Developer Portfolio. Java Full Stack Developer specializing in AI & Data Science.">
+    <meta name="keywords" content="Software Developer, Java Developer, Full Stack Developer, Portfolio">
+    <title>Naveen Prasad N | Software Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#home">NP</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="animated-bg"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-image fade-in">
+                        <img src="assets/profile-photo.jpg" alt="Naveen Prasad N" class="profile-photo">
+                    </div>
+                    <div class="hero-content fade-in">
+                        <h1 class="hero-title">
+                            <span class="greeting">Hi, I'm</span>
+                            <span class="name">Naveen Prasad N</span>
+                        </h1>
+                        <p class="hero-subtitle typing-text">Software Developer</p>
+                        <p class="hero-description">
+                            B.Tech student in Artificial Intelligence & Data Science, passionate about building 
+                            full-stack applications and solving complex problems. Currently seeking opportunities in 
+                            product & service-based companies.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary">View Projects</a>
+                            <a href="https://drive.google.com/file/d/1qKBRuRbaBRv6SqoWAv2KNbOK9r6LPbVJ/view?usp=sharing" 
+                               target="_blank" class="btn btn-secondary">Download Resume</a>
+                        </div>
+                        <div class="hero-social-buttons">
+                            <a href="https://linkedin.com/in/naveenprasadn" target="_blank" aria-label="LinkedIn" class="social-btn linkedin">
+                                <svg class="social-icon-svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/NaveenPrasadN" target="_blank" aria-label="GitHub" class="social-btn github">
+                                <svg class="social-icon-svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://leetcode.com/im_n_p" target="_blank" aria-label="LeetCode" class="social-btn leetcode">
+                                <svg class="social-icon-svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                    <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a1.841 1.841 0 0 0-.465.938L4.7 18.963a.69.69 0 0 0 .951.853l5.549-3.13a.558.558 0 0 1 .35-.112.538.538 0 0 1 .33.112l5.548 3.127a.688.688 0 0 0 .95-.85l-1.917-7.723a1.894 1.894 0 0 0-.462-.938l-3.851-4.124L14.445.44A1.374 1.374 0 0 0 13.483 0zm-2.756 7.35l-1.939 2.08a.376.376 0 0 0-.113.272l.008 1.166c0 .108.062.203.152.26l1.915 1.08a.38.38 0 0 0 .35 0l1.915-1.08a.366.366 0 0 0 .152-.26l.008-1.166a.375.375 0 0 0-.113-.272l-1.94-2.08a.38.38 0 0 0-.3-.113.38.38 0 0 0-.3.113z"/>
+                                </svg>
+                                <span>LeetCode</span>
+                            </a>
+                            <a href="https://geeksforgeeks.org/prasad_np" target="_blank" aria-label="GeeksforGeeks" class="social-btn geeksforgeeks">
+                                <svg class="social-icon-svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                    <path d="M8.986 12.104c0-1.38.924-2.498 2.064-2.498 1.14 0 2.064 1.118 2.064 2.498 0 1.38-.924 2.498-2.064 2.498-1.14 0-2.064-1.118-2.064-2.498zm-4.5 0c0-3.315 2.22-6 4.95-6 2.73 0 4.95 2.685 4.95 6 0 3.315-2.22 6-4.95 6-2.73 0-4.95-2.685-4.95-6zm15.514 0c0-1.38.924-2.498 2.064-2.498 1.14 0 2.064 1.118 2.064 2.498 0 1.38-.924 2.498-2.064 2.498-1.14 0-2.064-1.118-2.064-2.498zm-4.5 0c0-3.315 2.22-6 4.95-6 2.73 0 4.95 2.685 4.95 6 0 3.315-2.22 6-4.95 6-2.73 0-4.95-2.685-4.95-6z"/>
+                                </svg>
+                                <span>GeeksforGeeks</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">
+                            I'm a final-year B.Tech student pursuing Artificial Intelligence & Data Science at 
+                            Knowledge Institute of Technology, Salem. With a strong foundation in software development 
+                            and a passion for creating impactful solutions, I'm eager to contribute to innovative 
+                            projects in the tech industry.
+                        </p>
+                        <p class="about-goal">
+                            My goal is to secure a software developer role in a product or service-based company 
+                            where I can leverage my full-stack development skills, work on challenging problems, 
+                            and grow as a professional developer.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card education-card">
+                            <div class="education-icon">🎓</div>
+                            <h3>Education</h3>
+                            <div class="education-item">
+                                <div class="education-degree">
+                                    <svg class="degree-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                        <path d="M6 12v5c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-5"/>
+                                    </svg>
+                                    <div>
+                                        <h4>Bachelor of Technology</h4>
+                                        <p class="degree">Artificial Intelligence and Data Science</p>
+                                    </div>
+                                </div>
+                                <div class="education-details">
+                                    <div class="education-detail-item">
+                                        <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                        <span class="institution">Knowledge Institute of Technology</span>
+                                    </div>
+                                    <div class="education-detail-item">
+                                        <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                        <span class="location">Salem, India</span>
+                                    </div>
+                                    <div class="education-detail-item">
+                                        <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <polyline points="12 6 12 12 16 14"/>
+                                        </svg>
+                                        <span class="duration">Sep 2022 – May 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category fade-in">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">💻</div>
+                            <h3 class="skill-category-title">Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">⚡</div>
+                            <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">🗄️</div>
+                            <h3 class="skill-category-title">Database</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">JDBC</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">🛠️</div>
+                            <h3 class="skill-category-title">Tools & Platforms</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Visual Studio Code</span>
+                            <span class="skill-tag">Eclipse</span>
+                        </div>
+                    </div>
+                    <div class="skill-category fade-in">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon">🧠</div>
+                            <h3 class="skill-category-title">Computer Science</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Data Structures</span>
+                            <span class="skill-tag">Algorithms</span>
+                            <span class="skill-tag">OOPS</span>
+                            <span class="skill-tag">DBMS</span>
+                            <span class="skill-tag">Computer Networks</span>
+                            <span class="skill-tag">Operating Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-timeline">
+                    <div class="experience-item fade-in">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Java Full Stack Development Internship</h3>
+                                <span class="experience-company">Dev Technology Solutions</span>
+                            </div>
+                            <div class="experience-meta">
+                                <span class="experience-date">July 2024 – Aug 2024</span>
+                                <span class="experience-location">Remote</span>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Gained hands-on experience in building end-to-end web applications using Java, HTML, CSS, JavaScript, and databases</li>
+                                <li>Developed full-stack applications with Java backend and responsive frontend interfaces</li>
+                                <li>Worked with JDBC for database connectivity and implemented CRUD operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3 class="project-title">Student Management System</h3>
+                            <span class="project-date">July 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a full-stack Java web application with a responsive user interface using HTML, CSS, 
+                            and Java Servlets. Integrated a MySQL database via JDBC, enabling seamless real-time data 
+                            storage and retrieval. Implemented full CRUD functionalities to manage 50+ student records 
+                            with high accuracy and efficiency.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JDBC</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/NaveenPrasadN" target="_blank" class="project-link">GitHub</a>
+                        </div> -->
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3 class="project-title">Placement Preparation Tracker System</h3>
+                            <span class="project-date">Nov 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a frontend-based web application to help students track placement preparation 
+                            activities including company applications, interview rounds, and skill practice. Implemented 
+                            client-side authentication and data persistence using JavaScript and browser LocalStorage. 
+                            Designed an interactive dashboard displaying application status and overall preparation progress.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/NaveenPrasadN" target="_blank" class="project-link">GitHub</a>
+                            <a href="#" class="project-link">Live Demo</a>
+                        </div> -->
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3 class="project-title">COVID-19 Vaccination and Impact Data Analysis</h3>
+                            <span class="project-date">Dec 2024</span>
+                        </div>
+                        <p class="project-description">
+                            Analyzed global COVID-19 datasets using NumPy, Pandas, and Matplotlib, uncovering key patterns in 
+                            vaccinations, daily cases, deaths, and recoveries. Performed data cleaning and preprocessing to 
+                            ensure high accuracy, consistency, and reliability of insights. Designed interactive visualizations 
+                            including line graphs, bar charts, and histograms to highlight geographic and temporal trends. 
+                            Conducted exploratory data analysis (EDA) to identify critical insights, improving decision-making 
+                            and storytelling impact.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">EDA</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/NaveenPrasadN" target="_blank" class="project-link">GitHub</a>
+                        </div> -->
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3 class="project-title">Task Management Application</h3>
+                            <span class="project-date">Dec 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a modern, responsive task management web application using HTML, CSS, JavaScript, and Tailwind CSS. 
+                            Implemented full CRUD functionality to create, edit, view, and delete tasks with status, priority, due date, 
+                            and reminders. Built real-time search, filter, and sorting features to efficiently manage tasks and improve 
+                            user productivity. Designed an interactive dashboard with visual indicators for overdue, due-soon, and completed 
+                            tasks, including progress tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">CRUD</span>
+                            <span class="tech-tag">LocalStorage</span>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="https://github.com/NaveenPrasadN" target="_blank" class="project-link">GitHub</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card fade-in">
+                        <div class="achievement-icon">💻</div>
+                        <h3 class="achievement-title">Coding Platforms</h3>
+                        <div class="achievement-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Problems Solved</span>
+                                <span class="stat-platform">LeetCode</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">250+</span>
+                                <span class="stat-label">Problems Solved</span>
+                                <span class="stat-platform">GeeksforGeeks</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="achievement-card fade-in">
+                        <div class="achievement-icon">🏆</div>
+                        <h3 class="achievement-title">Hackathons</h3>
+                        <div class="achievement-list">
+                            <div class="hackathon-item">
+                                <h4>ADVAYA Hackathon</h4>
+                                <p>BGS College of Engineering and Technology</p>
+                                <span class="hackathon-rank">Top 40 out of 800+ teams (2025)</span>
+                            </div>
+                            <div class="hackathon-item">
+                                <h4>EASE THE ERROR 5.0</h4>
+                                <p>Sri Venkateshwara College</p>
+                                <span class="hackathon-rank">Top 20 out of 100+ teams (2025)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="achievement-card fade-in">
+                        <div class="achievement-icon">📜</div>
+                        <h3 class="achievement-title">Certifications</h3>
+                        <div class="certification-list">
+                            <div class="cert-item">
+                                <h4>Java Fullstack Development</h4>
+                                <p>Dev Technology Solutions</p>
+                                <span class="cert-duration">1 Month Internship</span>
+                            </div>
+                            <div class="cert-item">
+                                <h4>GFG 160-Day Coding Challenge</h4>
+                                <p>GeeksforGeeks</p>
+                                <span class="cert-duration">Certificate of Completion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info fade-in">
+                        <p class="contact-intro">
+                            I'm currently looking for opportunities in software development. 
+                            Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:npnaveenprasadn@gmail.com" class="contact-value">npnaveenprasadn@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:8838593002" class="contact-value">+91 8838593002</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Salem, India</span>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://linkedin.com/in/naveenprasadn" target="_blank" class="social-icon" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="https://github.com/NaveenPrasadN" target="_blank" class="social-icon" aria-label="GitHub">GitHub</a>
+                            <a href="https://leetcode.com/im_n_p" target="_blank" class="social-icon" aria-label="LeetCode">LeetCode</a>
+                            <a href="https://geeksforgeeks.org/prasad_np" target="_blank" class="social-icon" aria-label="GeeksforGeeks">GeeksforGeeks</a>
+                        </div>
+                    </div>
+                    <form class="contact-form fade-in" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Naveen Prasad N. All rights reserved.</p>
+            
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
